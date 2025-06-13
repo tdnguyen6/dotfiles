@@ -20,3 +20,4 @@ git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zs
 
 git clone https://github.com/romkatv/zsh-defer.git ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-defer
 
+git clone --depth 1 https://github.com/unixorn/fzf-zsh-plugin.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-zsh-plugin

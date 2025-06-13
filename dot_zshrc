@@ -91,6 +91,8 @@ plugins=(
     zsh-defer
     kubectl
     kubectx
+    copybuffer
+    fzf-zsh-plugin
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -157,4 +159,8 @@ export TIMEFMT=$'\n================\nCPU\t%P\nuser\t%*U\nsystem\t%*S\ntotal\t%*E
 
 # zprof 
 
+ZLE_RPROMPT_INDENT=0
+
 precmd() { zsh-defer -1c 'echo -ne "\e[5 q"' }
+
+export FZF_PREVIEW_ADVANCED=1

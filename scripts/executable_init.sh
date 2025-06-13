@@ -14,3 +14,4 @@ sudo passwd
 sudo passwd $USER
 echo $(which zsh) | sudo tee -a /etc/shells
 chsh -s $(which zsh)
+sudo dnf install bat chafa exiftool
